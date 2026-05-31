@@ -23,6 +23,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 'mojiFirstProject'
+    'mojiFirstProject.apps.MojiFirstProjectConfig'
 ]
 
 MIDDLEWARE = [
@@ -35,7 +37,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'mojiFirestProject.urls'
+ROOT_URLCONF = 'mojiFirstProject.urls'
 
 TEMPLATES = [
     {
@@ -52,7 +54,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'mojiFirestProject.wsgi.application'
+WSGI_APPLICATION = 'mojiFirstProject.wsgi.application'
 
 
 # Database
